@@ -1,0 +1,84 @@
+#porqueusa{
+	display: none;
+	width: 100%;
+	padding-top: 1%;
+	padding-bottom: 2%;
+	background-color: #e5e8e8;
+}
+
+.tituloporqueusa{
+	width: 35%;
+	margin-left: 60%;
+	color: #033F90;
+	margin-top: 1%;
+    text-align: right;
+    background-color: #e5e8e8;
+
+}
+.tituloporqueusa p{
+	font-weight: normal;
+	font-size: 2.5rem;
+	font-family: 'Libre Baskerville', sans-serif;
+	color: #033F90;
+}	
+#porqueusa hr{
+    color: #033F90;
+    margin-left: 61%;
+}
+
+.itemsporque{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 3%;
+  	font-weight: normal;
+	font-size: 1.2rem;
+	font-family: 'Nunito', sans-serif;	
+	background-color: white;
+	padding: 4%  0px;
+}
+
+.itemsporque ul{
+	text-align: left;	
+	margin-left: 5%;
+	list-style-type: none;
+
+}
+.itemsporque ul li{
+  padding-left: 2rem;
+  background-image: url(../img/check.svg);
+  background-position: 0 0;
+  background-size: 1.5rem 1.5rem;
+  background-repeat: no-repeat;	
+}
+
+@media screen and (max-width: 480px) { /* pantalla hasta 480px */
+#porqueusa{
+	display: grid;
+	grid-template: 100%;
+}
+.tituloporqueusa{
+	width: 90%;
+	margin-left: 10%;
+
+}
+.tituloporqueusa p{
+	font-size: 1.8rem;
+
+}
+.itemsporque{
+
+	font-size: 1rem;
+
+}
+
+}
+
+@media screen and (min-width: 1400px) { /* pantallas 19 pulgadas en adelante */ 
+
+.tituloporqueusa p{
+	font-size: 3.3rem;
+    }	
+#porqueusa hr{
+    margin-left: 63%;
+}
+}

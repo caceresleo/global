@@ -1,0 +1,32 @@
+@font-face{
+    font-family: "bebasneue";
+    src: url("fonts/BebasNeue-Regular.ttf");
+    src: local('?'), /*cuando no se encuentra*/
+
+}
+
+@font-face{
+    font-family: "fontEmpresa";
+    src: url("fonts/Baloo2-Bold.ttf");
+    src: local('?'), /*cuando no se encuentra*/
+
+}
+
+@font-face{
+    font-family: "fontTitulo";
+    src: url("fonts/ConcertOne-Regular.ttf");
+    src: local('?'), /*cuando no se encuentra*/
+
+}
+
+@font-face{
+    font-family: "fontBoton";
+    src: url("fonts/PlayfairDisplaySC-Regular.ttf");
+    src: local('?'), /*cuando no se encuentra*/
+}
+
+@font-face{
+    font-family: "tituloSecundario";
+    src: url("fonts/AlfaSlabOne-Regular.ttf");
+    src: local('?'), /*cuando no se encuentra*/
+}

@@ -1,0 +1,146 @@
+#visaextrangeros{
+	display: none;
+	width: 100%;
+	height: 75vh;
+	background-color: white;
+}
+
+
+.titulovisa{
+	width: 100%;
+	background-color: white;
+	color: #033F90;
+	margin-top: 2%;
+    text-align: right;
+
+}
+
+.titulovisa P{
+	font-weight: normal;
+	font-size: 2.5rem;
+	font-family: 'Libre Baskerville', sans-serif;	
+	margin-right: 6%;
+}
+
+#visaextrangeros hr{
+	color: #033F90;
+    margin-left: 70%;
+}
+
+.visabandera{
+	float: left;
+	width: 35%;
+	background-color: white;
+	margin-left: 2%;
+}
+.visabandera img{
+	width: 100%;
+}
+.visatexto{
+	float: right;
+	background-color: white;
+	height: 70vh;
+	width: 60%;
+}
+
+
+
+.visatextocentral{
+	width: 80%;
+	margin-left: 10%;
+	height: 40vh;
+	padding-top: 5%;
+	text-align: justify;
+
+	color: black;
+}
+
+.visatextocentral p{
+  	font-weight: normal;
+	font-size: 1.2rem;
+	font-family: 'Nunito', sans-serif;
+}
+
+.visatexto button{
+
+	width: 30%;
+	height: 55px;
+	background-color: #033F90;
+	margin-top: 10px;
+
+	font: bold 25px Segoe UI, sans-serif;
+	color: white;
+
+	margin-bottom: 0;
+}
+
+.visatexto button:hover{
+	background-color:  #5dade2;
+	color: black;
+}
+
+
+@media screen and (max-width: 480px) { /* pantalla hasta 480px */
+		#visaextrangeros{
+			display: grid;
+			grid-template: 100%;
+		}
+
+		.visabandera{
+			width: 100%;
+			height: 150px;
+			overflow: hidden;
+		}
+		.visabandera img{
+			margin-top: -50px;
+		}	
+
+		.visatexto{
+			width: 100%;
+		}
+
+		.titulovisa p{
+			font-size: 1.8rem;
+
+		}
+
+		.visatextocentral{
+			height: auto;
+		}
+
+		.visatextocentral p{
+			font-size: 1.0rem;
+
+		}
+		.visatexto button{
+
+			width: 80%;
+			height: 45px;
+			margin-top: 5%;
+			font: bold 20px Segoe UI, sans-serif;
+
+		}
+
+}
+
+
+
+@media screen and (min-width: 1400px) { /* pantallas 19 pulgadas en adelante */ 
+		.titulovisa p{
+			font-size: 3.3rem;
+		}
+
+		.visatexto button{
+			margin-top: 0;
+
+		}	
+		#visaextrangeros hr{
+        margin-left: 71%;
+        }	
+
+        .visatextocentral p{
+	font-size: 1.8rem;
+        }
+
+}
+
